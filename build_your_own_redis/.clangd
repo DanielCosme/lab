@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -xc++
+    - -Wall
+    - -Wextra
+    - -Wno-missing-field-initializers
+#  Remove: [-xobjective-c++]
