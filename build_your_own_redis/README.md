@@ -36,3 +36,5 @@ We need to create to create an application protocol to read the byte stream, and
 2 levels of structures:
 1. High-level structure to split a byte stream into messages
 2. The structure itself within a message, the deserialization/marshaling.
+
+>> If you code HTTP as an exercise, you’re probably get a buggy subset because there is so much work like encoding/escaping things, checking for forbidden characters, etc. HTTP is a lesson in how NOT to design network protocols.
