@@ -38,3 +38,15 @@ We need to create to create an application protocol to read the byte stream, and
 2. The structure itself within a message, the deserialization/marshaling.
 
 >> If you code HTTP as an exercise, you’re probably get a buggy subset because there is so much work like encoding/escaping things, checking for forbidden characters, etc. HTTP is a lesson in how NOT to design network protocols.
+
+## Chapter 5 - Concurrent I/O Models
+*Prerequisites*: Basic operating system concepts like threads, processes, concurrency.
+### Event based concurrency
+This involves 3 operating system mechanisms:
+
+- Readiness notification: Wait for multiple sockets, return when one or more are ready. “Ready” means the read buffer is not empty or the write buffer is not full.
+- Non-blocking read: Assuming the read buffer is not empty, consume from it.
+- Non-blocking write: Assuming the write buffer is not full, put some data into it.
+
+## Chapter 6 - Event Loop
+**Currently**: HERE!
