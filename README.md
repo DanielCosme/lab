@@ -12,6 +12,9 @@ Practice exercises from the book: https://www.oreilly.com/library/view/concurren
 ## Dev Containers
 Declarative developement environments using https://containers.dev/ and https://devpod.sh/
 
+## Rust Book
+Learn Rust with: https://rust-book.cs.brown.edu/
+
 ### Setup commands
 ```sh
 devpod up . --ide zed --dotfiles https://danicos.dev/daniel/dotfiles --recreate
