@@ -28,3 +28,5 @@ Example with tilt and k3d: https://github.com/carlsverre/devcontainer-k3d-tilt-g
 ## Rust Book
 Learn Rust with: https://rust-book.cs.brown.edu/
 
+## Rustlings
+Practice Rust exercises via: https://rustlings.rust-lang.org/
