@@ -28,5 +28,9 @@ Example with tilt and k3d: https://github.com/carlsverre/devcontainer-k3d-tilt-g
 ## Rust Book
 Learn Rust with: https://rust-book.cs.brown.edu/
 
+### String concat
+https://rust-book.cs.brown.edu/ch08-02-strings.html#concatenating-with--or-format
+
 ## Rustlings
 Practice Rust exercises via: https://rustlings.rust-lang.org/
+
